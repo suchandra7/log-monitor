@@ -13,7 +13,6 @@ def generateValidThousandIPs():
                 break
             ipaddress = defaultPortionOfIp+str(thrirdPart)+'.'+str(fourthPart)
             ips.append(ipaddress)
-    #print(ips[-1])
     return ips
 
 def populateFileOneDayData(year,month,date,ips):
@@ -37,11 +36,8 @@ def populateFileOneDayData(year,month,date,ips):
         print("File Created..."+str(path))
 
     end_time=datetime.datetime.now()
-    #print("Time taken to create Array for one day",end_time-start_time)
 
-
-
-print("Hello !!!")
+print("Hello!!!")
 DATA_PATH = sys.argv[1] + '/'
 
 
