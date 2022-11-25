@@ -31,13 +31,10 @@ def binarySearch(ar,target):
             hi=m
     return lo
 
-# start_time="2014-10-31 00:02" #1414738800
+
 start_time=str(sys.argv[3])+" "+str(sys.argv[4])
-# end_time="2014-10-31 00:04" #1414738900
 end_time=str(sys.argv[5])+" "+str(sys.argv[6])
-# ip_address="192.168.1.1"
 ip_address=sys.argv[1]
-# cpu_id=0
 cpu_id=int(sys.argv[2])
 
 DATA_PATH = sys.argv[7]+'/'
