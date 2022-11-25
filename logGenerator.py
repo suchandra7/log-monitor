@@ -39,8 +39,6 @@ def populateFileOneDayData(year,month,date,ips):
 
 print("Hello!!!")
 DATA_PATH = sys.argv[1] + '/'
-
-
 thousand_ips=generateValidThousandIPs()
 year=2014
 month=10
