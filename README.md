@@ -6,6 +6,6 @@
 -	Run the command "./generate.sh DATA_PATH"
 -	The above command will generate 1000 logs in the DATA_PATH folder for the date(2014-10-31).
 -	Then run the command "./query.sh DATA_PATH", which will prompt an interactive query tool that expects the two possible commands as mentioned below.
--	In the interactive tool provide the command "QUERY IP cpu_id time_start time_end" to filter IPs between the start and end time.
+-	In the interactive tool provide the command "QUERY IP cpu_id time_start time_end" to filter IPs between the start and end time. IP address should be in between ‘192.168.1.1’ - ‘192.168.4.235’.
     -	Exapmle: QUERY 192.168.1.12 0 2014-10-31 00:00 2014-10-31 00:05
 -	In the interactive tool provide the command "EXIT"(all caps) to exit from the interactive tool.
